@@ -1,0 +1,209 @@
+21-02-03 17:54:50.742 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 17:54:50.747 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 24392 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 17:54:50.752 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 17:54:51.817 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$de7993b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:54:51.831 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:54:51.862 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#1d75e7af' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:54:51.864 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:54:52.009 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 17:54:52.015 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 17:54:52.016 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 17:54:52.016 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 17:54:52.081 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 17:54:52.081 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1254 ms
+21-02-03 17:54:52.333 [main] INFO  o.a.catalina.core.StandardService-173 -Stopping service [Tomcat]
+21-02-03 17:54:52.346 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21-02-03 17:55:17.342 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 25200 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 17:55:17.342 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 17:55:17.344 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 17:55:18.296 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$3f3629f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:55:18.307 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:55:18.332 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#3419e23b' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:55:18.334 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:55:18.470 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 17:55:18.476 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 17:55:18.477 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 17:55:18.477 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 17:55:18.542 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 17:55:18.542 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1158 ms
+21-02-03 17:55:18.899 [main] INFO  o.a.catalina.core.StandardService-173 -Stopping service [Tomcat]
+21-02-03 17:55:18.911 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21-02-03 17:57:02.522 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 17:57:02.532 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 27584 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 17:57:02.533 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 17:57:03.485 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$b64adeb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:57:03.496 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:57:03.522 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#53a9fcfd' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:57:03.524 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:57:03.660 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 17:57:03.666 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 17:57:03.666 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 17:57:03.667 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 17:57:03.734 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 17:57:03.734 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1155 ms
+21-02-03 17:57:04.144 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver-58 -Exposing 2 endpoint(s) beneath base path '/actuator'
+21-02-03 17:57:04.186 [main] INFO  o.a.catalina.core.StandardService-173 -Stopping service [Tomcat]
+21-02-03 17:57:04.196 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21-02-03 17:58:32.858 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 28444 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 17:58:32.857 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 17:58:32.860 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 17:58:33.874 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$628e23fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:58:33.885 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:58:33.909 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#72456279' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:58:33.910 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 17:58:34.051 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 17:58:34.058 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 17:58:34.059 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 17:58:34.059 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 17:58:34.131 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 17:58:34.132 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1224 ms
+21-02-03 17:58:34.674 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver-58 -Exposing 2 endpoint(s) beneath base path '/actuator'
+21-02-03 17:58:34.737 [main] INFO  o.a.catalina.core.StandardService-173 -Stopping service [Tomcat]
+21-02-03 17:58:34.749 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21-02-03 18:00:27.584 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 18:00:27.593 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 18280 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 18:00:27.594 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 18:00:28.532 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$d702532e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:00:28.543 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:00:28.567 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#21f459fc' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:00:28.568 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:00:28.705 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 18:00:28.711 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 18:00:28.712 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 18:00:28.712 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 18:00:28.778 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 18:00:28.778 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1144 ms
+21-02-03 18:00:29.211 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver-58 -Exposing 2 endpoint(s) beneath base path '/actuator'
+21-02-03 18:00:29.250 [main] INFO  o.a.catalina.core.StandardService-173 -Stopping service [Tomcat]
+21-02-03 18:00:29.262 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21-02-03 18:00:41.604 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 18:00:41.619 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 24108 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 18:00:41.620 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 18:00:42.724 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$bd5478] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:00:42.736 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:00:42.764 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#32f1fafe' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:00:42.766 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:00:42.944 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 18:00:42.950 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 18:00:42.951 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 18:00:42.951 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 18:00:43.013 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 18:00:43.013 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1353 ms
+21-02-03 18:00:43.481 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver-58 -Exposing 2 endpoint(s) beneath base path '/actuator'
+21-02-03 18:05:09.991 [main] INFO  o.a.catalina.core.StandardService-173 -Stopping service [Tomcat]
+21-02-03 18:05:10.006 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21-02-03 18:05:15.137 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 18:05:15.153 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 24860 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 18:05:15.154 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 18:05:16.157 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$bcd15dd8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:05:16.168 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:05:16.193 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#710d89e2' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:05:16.194 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:05:16.336 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 18:05:16.343 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 18:05:16.343 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 18:05:16.343 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 18:05:16.411 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 18:05:16.411 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1214 ms
+21-02-03 18:05:16.856 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver-58 -Exposing 2 endpoint(s) beneath base path '/actuator'
+21-02-03 18:05:16.942 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor-181 -Initializing ExecutorService 'applicationTaskExecutor'
+21-02-03 18:05:17.158 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Starting ProtocolHandler ["http-nio-8080"]
+21-02-03 18:05:17.171 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-220 -Tomcat started on port(s): 8080 (http) with context path ''
+21-02-03 18:05:17.345 [main] INFO  c.e.appcommon.AppCommonApplication-61 -Started AppCommonApplication in 2.59 seconds (JVM running for 3.325)
+21-02-03 18:05:17.477 [RMI TCP Connection(1)-10.0.107.44] INFO  com.zaxxer.hikari.HikariDataSource-110 -HikariPool-1 - Starting...
+21-02-03 18:05:17.956 [RMI TCP Connection(3)-10.0.107.44] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+21-02-03 18:05:17.956 [RMI TCP Connection(3)-10.0.107.44] INFO  o.s.web.servlet.DispatcherServlet-525 -Initializing Servlet 'dispatcherServlet'
+21-02-03 18:05:17.957 [RMI TCP Connection(3)-10.0.107.44] INFO  o.s.web.servlet.DispatcherServlet-547 -Completed initialization in 1 ms
+21-02-03 18:05:47.036 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 29312 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 18:05:47.037 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 18:05:47.039 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 18:05:47.980 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$b6f81f74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:05:47.991 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:05:48.015 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#2ab0702e' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:05:48.016 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:05:48.150 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 18:05:48.156 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 18:05:48.157 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 18:05:48.157 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 18:05:48.224 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 18:05:48.224 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1152 ms
+21-02-03 18:05:48.664 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver-58 -Exposing 2 endpoint(s) beneath base path '/actuator'
+21-02-03 18:05:48.746 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor-181 -Initializing ExecutorService 'applicationTaskExecutor'
+21-02-03 18:05:48.940 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Starting ProtocolHandler ["http-nio-8080"]
+21-02-03 18:05:48.952 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-220 -Tomcat started on port(s): 8080 (http) with context path ''
+21-02-03 18:05:49.124 [main] INFO  c.e.appcommon.AppCommonApplication-61 -Started AppCommonApplication in 2.456 seconds (JVM running for 3.137)
+21-02-03 18:05:49.702 [RMI TCP Connection(2)-10.0.107.44] INFO  com.zaxxer.hikari.HikariDataSource-110 -HikariPool-1 - Starting...
+21-02-03 18:05:49.703 [RMI TCP Connection(1)-10.0.107.44] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+21-02-03 18:05:49.703 [RMI TCP Connection(1)-10.0.107.44] INFO  o.s.web.servlet.DispatcherServlet-525 -Initializing Servlet 'dispatcherServlet'
+21-02-03 18:05:49.704 [RMI TCP Connection(1)-10.0.107.44] INFO  o.s.web.servlet.DispatcherServlet-547 -Completed initialization in 1 ms
+21-02-03 18:06:29.104 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 18:06:29.110 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 16652 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 18:06:29.111 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 18:06:30.092 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$efc70942] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:06:30.106 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:06:30.134 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#4fc142ec' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:06:30.136 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:06:30.326 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 18:06:30.332 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 18:06:30.333 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 18:06:30.333 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 18:06:30.409 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 18:06:30.409 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1265 ms
+21-02-03 18:06:30.817 [main] INFO  o.a.catalina.core.StandardService-173 -Stopping service [Tomcat]
+21-02-03 18:06:30.829 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21-02-03 18:07:11.468 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 27000 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 18:07:11.471 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 18:07:11.475 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 18:07:12.319 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$f7142f68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:07:12.332 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:07:12.360 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#5acc9fdf' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:07:12.361 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:07:12.490 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 18:07:12.496 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 18:07:12.497 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 18:07:12.497 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 18:07:12.554 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 18:07:12.555 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1049 ms
+21-02-03 18:07:12.954 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver-58 -Exposing 2 endpoint(s) beneath base path '/actuator'
+21-02-03 18:07:13.029 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor-181 -Initializing ExecutorService 'applicationTaskExecutor'
+21-02-03 18:07:13.152 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Starting ProtocolHandler ["http-nio-8080"]
+21-02-03 18:07:13.165 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-220 -Tomcat started on port(s): 8080 (http) with context path ''
+21-02-03 18:07:13.331 [main] INFO  c.e.appcommon.AppCommonApplication-61 -Started AppCommonApplication in 2.213 seconds (JVM running for 2.934)
+21-02-03 18:07:14.108 [RMI TCP Connection(2)-10.0.107.44] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+21-02-03 18:07:14.108 [RMI TCP Connection(2)-10.0.107.44] INFO  o.s.web.servlet.DispatcherServlet-525 -Initializing Servlet 'dispatcherServlet'
+21-02-03 18:07:14.109 [RMI TCP Connection(2)-10.0.107.44] INFO  o.s.web.servlet.DispatcherServlet-547 -Completed initialization in 0 ms
+21-02-03 18:07:28.193 [background-preinit] INFO  o.h.validator.internal.util.Version-21 -HV000001: Hibernate Validator 6.1.6.Final
+21-02-03 18:07:28.205 [main] INFO  c.e.appcommon.AppCommonApplication-55 -Starting AppCommonApplication using Java 1.8.0_231 on wangchenguang with PID 24820 (D:\GitRepository\Improve\app-common\target\classes started by wangchenguang in D:\GitRepository\Improve\app-common)
+21-02-03 18:07:28.206 [main] INFO  c.e.appcommon.AppCommonApplication-660 -No active profile set, falling back to default profiles: default
+21-02-03 18:07:29.051 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'com.thebeastshop.forest.springboot.ForestAutoConfiguration' of type [com.thebeastshop.forest.springboot.ForestAutoConfiguration$$EnhancerBySpringCGLIB$$846f4bc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:07:29.062 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfigurationProperties' of type [com.thebeastshop.forest.springboot.properties.ForestConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:07:29.088 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean '(inner bean)#36b310aa' of type [com.dtflys.forest.interceptor.SpringInterceptorFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:07:29.089 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-350 -Bean 'forestConfiguration' of type [com.dtflys.forest.config.ForestConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21-02-03 18:07:29.218 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-108 -Tomcat initialized with port(s): 8080 (http)
+21-02-03 18:07:29.224 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Initializing ProtocolHandler ["http-nio-8080"]
+21-02-03 18:07:29.224 [main] INFO  o.a.catalina.core.StandardService-173 -Starting service [Tomcat]
+21-02-03 18:07:29.224 [main] INFO  o.a.catalina.core.StandardEngine-173 -Starting Servlet engine: [Apache Tomcat/9.0.39]
+21-02-03 18:07:29.280 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring embedded WebApplicationContext
+21-02-03 18:07:29.280 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-289 -Root WebApplicationContext: initialization completed in 1031 ms
+21-02-03 18:07:29.681 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver-58 -Exposing 2 endpoint(s) beneath base path '/actuator'
+21-02-03 18:07:29.757 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor-181 -Initializing ExecutorService 'applicationTaskExecutor'
+21-02-03 18:07:29.878 [main] INFO  o.a.coyote.http11.Http11NioProtocol-173 -Starting ProtocolHandler ["http-nio-8080"]
+21-02-03 18:07:29.891 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-220 -Tomcat started on port(s): 8080 (http) with context path ''
+21-02-03 18:07:30.055 [main] INFO  c.e.appcommon.AppCommonApplication-61 -Started AppCommonApplication in 2.198 seconds (JVM running for 2.853)
+21-02-03 18:07:30.396 [RMI TCP Connection(1)-10.0.107.44] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+21-02-03 18:07:30.396 [RMI TCP Connection(1)-10.0.107.44] INFO  o.s.web.servlet.DispatcherServlet-525 -Initializing Servlet 'dispatcherServlet'
+21-02-03 18:07:30.398 [RMI TCP Connection(1)-10.0.107.44] INFO  o.s.web.servlet.DispatcherServlet-547 -Completed initialization in 2 ms

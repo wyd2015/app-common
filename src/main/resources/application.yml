@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: app-common
+  # 数据库配置
+  datasource:
+    url: jdbc:mysql://192.168.17.102:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: fuser
+    password: 7ga7iv13a5
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: com/example/appcommon/mapper/*.xml

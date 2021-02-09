@@ -1,0 +1,12 @@
+21-02-07 08:48:51.414 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-07 08:53:34.870 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-07 08:53:36.255 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader-170 -Unable to interpret the implicit parameter configuration with dataType: MultipartFile, dataTypeClass: class java.lang.Void
+21-02-07 08:56:15.840 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-07 08:56:17.233 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader-170 -Unable to interpret the implicit parameter configuration with dataType: MultipartFile, dataTypeClass: class java.lang.Void
+21-02-07 08:58:36.524 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-07 08:58:37.882 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader-170 -Unable to interpret the implicit parameter configuration with dataType: MultipartFile, dataTypeClass: class java.lang.Void
+21-02-07 09:08:25.150 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-07 09:08:26.579 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader-170 -Unable to interpret the implicit parameter configuration with dataType: MultipartFile, dataTypeClass: class java.lang.Void
+21-02-07 09:09:02.899 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-07 09:20:48.551 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-07 10:29:37.749 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.

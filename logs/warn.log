@@ -1,0 +1,55 @@
+21-02-09 09:10:25.393 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 13:19:05.503 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 13:19:23.932 [http-nio-8081-exec-7] WARN  c.e.a.controller.TestController-48 -msg is hia hia hia
+21-02-09 13:19:47.759 [http-nio-8081-exec-8] WARN  c.e.a.controller.TestController-48 -msg is hia hia hia
+21-02-09 13:19:53.148 [http-nio-8081-exec-10] WARN  c.e.a.controller.TestController-48 ->>>>>>>>>> hia hia hia
+21-02-09 13:26:07.411 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 13:30:53.620 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 13:31:34.308 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 14:25:57.743 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 14:26:15.814 [http-nio-8081-exec-1] WARN  c.e.a.controller.TestController-49 ->>>>>>>>>> 123
+21-02-09 14:29:53.465 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 14:30:58.841 [http-nio-8081-exec-5] WARN  c.e.a.controller.TestController-49 ->>>>>>>>>> 福克斯看到
+21-02-09 14:37:25.621 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 14:38:59.022 [http-nio-8081-exec-7] WARN  c.e.a.controller.TestController-49 ->>>>>>>>>> 开关
+21-02-09 14:40:10.817 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 14:40:18.207 [http-nio-8081-exec-1] WARN  c.e.a.controller.TestController-50 ->>>>>>>>>> 开关
+21-02-09 15:20:33.653 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 15:20:57.108 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 15:22:07.407 [http-nio-8081-exec-7] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=1, userName=wcg2021, password=asdfg2021, email=wyd790108961@gamil.com)
+21-02-09 15:22:27.857 [http-nio-8081-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver-207 -Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'validateParam' on field 'email': rejected value [wyd790108961gmail.com]; codes [Email.validateParam.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [validateParam.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@55f64049,.*]; default message [用户邮箱格式不正确！]]
+21-02-09 15:24:53.749 [http-nio-8081-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver-207 -Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'validateParam' on field 'email': rejected value [wyd790108961gmail.com]; codes [Email.validateParam.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [validateParam.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@55f64049,.*]; default message [用户邮箱格式不正确！]]
+21-02-09 15:24:58.740 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver-207 -Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'validateParam' on field 'email': rejected value [wyd790108961gmail.com]; codes [Email.validateParam.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [validateParam.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@55f64049,.*]; default message [用户邮箱格式不正确！]]
+21-02-09 15:25:05.968 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 15:25:13.149 [http-nio-8081-exec-2] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=1, userName=wcg2021, password=asdfg2021, email=wyd790108961@gmail.com)
+21-02-09 15:25:26.772 [http-nio-8081-exec-3] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=1, userName=wcg2021, password=asdfg202, email=wyd790108961@gmail.com)
+21-02-09 15:25:34.706 [http-nio-8081-exec-1] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=1, userName=wcg2021, password=asdffdsf, email=wyd790108961@gmail.com)
+21-02-09 15:28:18.392 [http-nio-8081-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver-207 -Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'validateParam' on field 'email': rejected value [wyd790108961gmail.com]; codes [Email.validateParam.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [validateParam.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@7c97b0cf,.*]; default message [用户邮箱格式不正确！]]
+21-02-09 15:38:45.768 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 15:39:17.839 [http-nio-8081-exec-7] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:04:03.069 [http-nio-8081-exec-10] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:04:04.049 [http-nio-8081-exec-2] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:04:04.521 [http-nio-8081-exec-3] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:09:18.750 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 16:09:26.594 [http-nio-8081-exec-3] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:11:11.610 [http-nio-8081-exec-1] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:11:19.663 [http-nio-8081-exec-2] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:11:23.177 [http-nio-8081-exec-5] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:11:30.536 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 16:11:37.186 [http-nio-8081-exec-1] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:11:56.154 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 16:12:03.022 [http-nio-8081-exec-1] WARN  c.e.a.i.RestResultInterceptor-29 -在类[com.example.appcommon.controller.TestController]上发现了 @RestWrapper 注解
+21-02-09 16:12:03.111 [http-nio-8081-exec-1] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:12:33.333 [http-nio-8081-exec-2] WARN  c.e.a.i.RestResultInterceptor-29 -在类[com.example.appcommon.controller.TestController]上发现了 @RestWrapper 注解
+21-02-09 16:12:33.335 [http-nio-8081-exec-2] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:12:39.077 [http-nio-8081-exec-3] WARN  c.e.a.controller.TestController-54 ->>>>>>>>>> ValidateParam(id=283746823, userName=lgksdfg, password=fsakdjfhlk, email=dasd@qq.com)
+21-02-09 16:15:17.575 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 16:16:48.041 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 16:22:01.626 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 16:23:59.291 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 16:49:44.474 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
+21-02-09 17:04:23.740 [main] WARN  o.m.s.mapper.ClassPathMapperScanner-44 -No MyBatis mapper was found in '[com.example.appcommon]' package. Please check your configuration.
