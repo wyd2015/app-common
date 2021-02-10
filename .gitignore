@@ -18,6 +18,7 @@ target/
 *.iml
 *.ipr
 .mvn/
+logs/
 mvnw
 mvnw.cmd
 
