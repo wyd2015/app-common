@@ -15,8 +15,9 @@ public class BaseException extends RuntimeException {
     private String message;
     private Throwable cause;
     
-    public BaseException(RestCode restCode){
+    public BaseException(RestCode restCode, String message){
         this.restCode = restCode;
+        this.message = message;
     }
     
     public BaseException(RestCode restCode, Object[] args, String message, Throwable cause1) {

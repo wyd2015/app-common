@@ -1,10 +1,13 @@
 package com.example.appcommon.common;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.util.Date;
+
+import static com.example.appcommon.common.RestCode.SUCCESS;
 
 /**
  * @Author: wcg
@@ -14,35 +17,44 @@ import java.util.Date;
 @NoArgsConstructor
 public class RestResult implements Serializable {
     private Integer code;
-    private String msg;
     private Object data;
+    private String msg;
+    @JsonFormat(shape= JsonFormat.Shape.STRING, pattern="yyyy-MM-dd HH:mm:ss.sss")
     private Date timestamp = new Date();
+    private String path;
     
-    public RestResult(RestCode restCode) {
+    public RestResult(RestCode restCode, String path) {
         this.code = restCode.code();
         this.msg = restCode.msg();
+        this.path = path;
     }
     
-    public RestResult(RestCode restCode, Object data) {
+    public RestResult(RestCode restCode, String path, Object data) {
         this.code = restCode.code();
         this.msg = restCode.msg();
+        this.path = path;
         this.data = data;
     }
     
-    public static RestResult success(){
-        return new RestResult(RestCode.SUCCESS);
+    public RestResult(Integer code, String msg, String path) {
+        this.code = code;
+        this.path = path;
+        this.msg = msg;
     }
     
-    public static RestResult success(Object data){
-        return new RestResult(RestCode.SUCCESS, data);
+    public static RestResult success(String path){
+        return new RestResult(SUCCESS, path);
     }
     
-    public static RestResult failure(RestCode restCode) {
-        return new RestResult(restCode);
+    public static RestResult success(Object data, String path){
+        return new RestResult(SUCCESS, path, data);
     }
     
-    public static RestResult failure(Object data){
-        return new RestResult(RestCode.SUCCESS, data);
+    public static RestResult failure(RestCode restCode, String path) {
+        return new RestResult(restCode, path);
     }
     
+    public static RestResult failure(Object data, String path){
+        return new RestResult(SUCCESS, path, data);
+    }
 }

@@ -2,7 +2,6 @@ package com.example.appcommon.controller;
 
 import com.example.appcommon.annotation.RestWrapper;
 import com.example.appcommon.common.BaseException;
-import com.example.appcommon.common.RestCode;
 import com.example.appcommon.model.po.SysUser;
 import com.example.appcommon.model.vo.FileVO;
 import com.example.appcommon.model.vo.ValidateParam;
@@ -13,7 +12,6 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +19,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 import java.util.List;
+
+import static com.example.appcommon.common.RestCode.FAILED;
+import static com.example.appcommon.common.RestCode.SERVER_ERROR;
 
 /**
  * @Author: wcg
@@ -57,10 +58,23 @@ public class TestController {
         return param;
     }
     
-    @GetMapping("/error")
-    @ApiOperation("测试异常时的返回信息")
+    @GetMapping("/string")
+    @ApiOperation("测试返回字符串")
+    public String testString(String msg) {
+        return msg;
+    }
+    
+    @GetMapping("/error/base")
+    @ApiOperation("测试运行时异常时的返回信息")
+    public Object getBaseException(){
+        return 10/0;
+    }
+    
+    
+    @GetMapping("/exception")
+    @ApiOperation("测试自定义异常时的返回信息")
     public Object getException(){
-        throw new BaseException(RestCode.FAILED);
+        return new BaseException(SERVER_ERROR, "服务器异常");
     }
     
 }

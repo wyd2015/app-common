@@ -7,6 +7,7 @@ package com.example.appcommon.common;
 public enum RestCode {
     SUCCESS(200, "成功"),
     FAILED(-1, "失败"),
+    SERVER_ERROR(500, "服务器内部错误："),
     
     PARAM_INVALID(1000, "参数无效"),
     PARAM_BLANK(1000, "参数为空"),

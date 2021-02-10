@@ -9,6 +9,8 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Author: wcg
@@ -17,6 +19,8 @@ import java.lang.reflect.Method;
 @Slf4j
 @Component
 public class RestResultInterceptor implements HandlerInterceptor {
+    
+    private static Map<String, Object> restWrapperMap = new ConcurrentHashMap<>();
     private static final String REST_RESULT_ANNOTATION = "REST_RESULT_ANNOTATION";
     
     @Override
