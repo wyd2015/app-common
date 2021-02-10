@@ -20,8 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 import java.util.List;
 
-import static com.example.appcommon.common.RestCode.FAILED;
-import static com.example.appcommon.common.RestCode.SERVER_ERROR;
+import static com.example.appcommon.common.RestCode.*;
 
 /**
  * @Author: wcg
@@ -74,7 +73,7 @@ public class TestController {
     @GetMapping("/exception")
     @ApiOperation("测试自定义异常时的返回信息")
     public Object getException(){
-        return new BaseException(SERVER_ERROR, "服务器异常");
+        return new BaseException(INTERNAL_SERVER_ERROR, "服务器异常");
     }
     
 }

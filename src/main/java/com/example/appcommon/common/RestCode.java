@@ -7,7 +7,10 @@ package com.example.appcommon.common;
 public enum RestCode {
     SUCCESS(200, "成功"),
     FAILED(-1, "失败"),
-    SERVER_ERROR(500, "服务器内部错误："),
+    NO_AUTH(401,"未登录"),
+    NO_PERMISSION(402,"你没得权限"),
+    NOT_FOUND(404, "未找到该资源!"),
+    INTERNAL_SERVER_ERROR(500, "服务器异常请联系管理员"),
     
     PARAM_INVALID(1000, "参数无效"),
     PARAM_BLANK(1000, "参数为空"),
