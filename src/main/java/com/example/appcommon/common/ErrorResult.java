@@ -2,11 +2,8 @@ package com.example.appcommon.common;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
 import org.springframework.web.context.request.ServletWebRequest;
 import org.springframework.web.context.request.WebRequest;
-
-import java.util.Date;
 
 /**
  * @Author: wcg
