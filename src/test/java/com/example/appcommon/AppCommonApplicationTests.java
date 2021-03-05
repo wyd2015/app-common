@@ -1,13 +1,15 @@
 package com.example.appcommon;
 
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+@Slf4j
 @SpringBootTest
 class AppCommonApplicationTests {
     
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
     
 }

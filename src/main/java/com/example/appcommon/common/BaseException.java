@@ -16,14 +16,16 @@ public class BaseException extends RuntimeException {
     private Throwable cause;
     
     public BaseException(RestCode restCode, String message){
+        super(message);
         this.restCode = restCode;
         this.message = message;
     }
     
-    public BaseException(RestCode restCode, Object[] args, String message, Throwable cause1) {
+    public BaseException(RestCode restCode, Object[] args, String message, Throwable cause) {
+        super(message, cause);
         this.restCode = restCode;
         this.args = args;
         this.message = message;
-        this.cause = cause1;
+        this.cause = cause;
     }
 }

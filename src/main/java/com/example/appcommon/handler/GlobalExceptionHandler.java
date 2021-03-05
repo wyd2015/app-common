@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import javax.servlet.http.HttpServletRequest;
 
 /**
+ * 全局异常处理
  * @Author: wcg
  * @Date: 2021/2/10 9:24
  */
@@ -18,9 +19,15 @@ import javax.servlet.http.HttpServletRequest;
 public class GlobalExceptionHandler {
     
     @ExceptionHandler(BaseException.class)
-    public RestResult defaultExceptionHandler(HttpServletRequest request, BaseException e) {
-        log.error("接口[{}]发生异常: ", request.getRequestURI(), e);
+    public RestResult baseExceptionHandler(HttpServletRequest request, BaseException e) {
+        log.error("业务接口 [{}] 运行时异常: ", request.getRequestURI(), e);
         return new RestResult(HttpStatus.INTERNAL_SERVER_ERROR.value(), e.getMessage(), request.getRequestURI());
+    }
+    
+    @ExceptionHandler(Exception.class)
+    public RestResult defaultExceptionHandler(HttpServletRequest request, Exception e){
+        log.error("[{}] 服务异常: ", request.getRequestURI(), e);
+        return new RestResult(HttpStatus.INTERNAL_SERVER_ERROR.value(), e.getCause().toString(), request.getRequestURI());
     }
     
 }
