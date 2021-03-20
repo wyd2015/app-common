@@ -5,8 +5,8 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 import lombok.Data;
 
-@ApiModel(value = "SysUser")
 @Data
+@ApiModel(value = "SysUser")
 public class SysUser implements Serializable {
     /**
      *

@@ -6,10 +6,21 @@ spring:
     name: app-common
   # 数据库配置
   datasource:
-    url: jdbc:mysql://192.168.17.102:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
-    username: fuser
-    password: 7ga7iv13a5
+    url: jdbc:mysql://192.168.74.129:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
+  # Redis配置
+  redis:
+    host: 192.168.74.129
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1ms
+        max-idle: 8
 
+# Mybatis映射文件位置
 mybatis:
   mapper-locations: com/example/appcommon/mapper/*.xml
+

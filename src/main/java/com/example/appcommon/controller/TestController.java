@@ -2,9 +2,11 @@ package com.example.appcommon.controller;
 
 import com.example.appcommon.annotation.RestWrapper;
 import com.example.appcommon.common.BaseException;
+import com.example.appcommon.model.po.People;
 import com.example.appcommon.model.po.SysUser;
 import com.example.appcommon.model.vo.FileVO;
 import com.example.appcommon.model.vo.ValidateParam;
+import com.example.appcommon.service.CacheService;
 import com.example.appcommon.service.ExcelService;
 import com.example.appcommon.service.TestService;
 import io.swagger.annotations.Api;
@@ -37,6 +39,8 @@ public class TestController {
     private TestService testService;
     @Autowired
     private ExcelService excelService;
+    @Autowired
+    private CacheService cacheService;
     
     @GetMapping("/timeout")
     @ApiOperation("验证超时")
@@ -74,6 +78,18 @@ public class TestController {
     @ApiOperation("测试自定义异常时的返回信息")
     public Object getException(){
         return new BaseException(INTERNAL_SERVER_ERROR, "服务器异常");
+    }
+    
+    @GetMapping("/redis")
+    @ApiOperation("查询年龄集合")
+    public List<Integer> getAgeList(){
+        return cacheService.getList();
+    }
+    
+    @GetMapping("/people")
+    @ApiOperation("查询所有人员")
+    public List<People> getPeopleList(int age){
+        return cacheService.getPeopleList(age);
     }
     
 }

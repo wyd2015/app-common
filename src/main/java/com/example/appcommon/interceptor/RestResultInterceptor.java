@@ -20,7 +20,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Component
 public class RestResultInterceptor implements HandlerInterceptor {
     
-    private static Map<String, Object> restWrapperMap = new ConcurrentHashMap<>();
     private static final String REST_RESULT_ANNOTATION = "REST_RESULT_ANNOTATION";
     
     @Override
@@ -30,10 +29,8 @@ public class RestResultInterceptor implements HandlerInterceptor {
             Class<?> aClass = handlerMethod.getBeanType();
             Method method = handlerMethod.getMethod();
             if(aClass.isAnnotationPresent(RestWrapper.class)) {
-                log.info("在类[{}]上发现了 @RestWrapper 注解", aClass.getName());
                 request.setAttribute(REST_RESULT_ANNOTATION, aClass.getAnnotation(RestWrapper.class));
             } else if (method.isAnnotationPresent(RestWrapper.class)) {
-                log.info("在方法[{}]上发现了 @RestWrapper 注解", method.getName());
                 request.setAttribute(REST_RESULT_ANNOTATION, method.getAnnotation(RestWrapper.class));
             }
         }
